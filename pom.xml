@@ -6,7 +6,14 @@
 	<groupId>com.example</groupId>
 	<artifactId>oauth2-example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+        <packaging>pom</packaging>
+
+	<modules>
+		<module>authorization</module>
+		<module>resource</module>
+		<module>client</module>
+		<module>eureka</module>
+	</modules>
 
 	<name>oauth2-example</name>
 	<description>Demo project for OAuth2</description>
